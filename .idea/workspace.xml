@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44de5c33-c36e-4664-bd8f-f6e867c25089" name="Default" comment="[ADD]update 3: &#10;leetcode-array-1,&#10;leetcode-array-16,&#10;leetcode-array-33">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2017_11_26_17_34__Default_/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2017_11_26_17_34__Default_/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="H:\Java\Algorithms\.idea\shelf/" />
+    <ignored path="D:\IdeaProjects\AlgorthimLearning\.idea\shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>INFO Starting runner</find>
+      <find>numbers</find>
+      <find>A</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>height</replace>
+      <replace>nums</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="XuDeveloper" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="AlgorthimLearning" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/xu/linkedlist/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/linkedlist/Remove_Nth_Node_From_End_of_List_174.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/linkedlist/Reverse_Linked_List_II_92.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/linkedlist/Sort_List_148.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/linkedlist/Insertion_Sort_List_147.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/linkedlist/Palindrome_Linked_List_234.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Binary_Tree_Preorder_Traversal_144.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Binary_Tree_Inorder_Traversal_94.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Binary_Tree_Postorder_Traversal_145.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Binary_Tree_Level_Order_Traversal_102.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Binary_Tree_Level_Order_Traversal_II_107.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Maximum_Depth_of_Binary_Tree_104.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Binary_Tree_Maximum_Path_Sum_124.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/tree/Lowest_Common_Ancestor_of_a_Binary_Tree_88.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Invert_Binary_Tree_226.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/binary_search/Insert_Node_in_a_Binary_Search_Tree_85.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Minimum_Absolute_Difference_in_BST_530.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Validate_Binary_Search_Tree_98.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/binary_search/Search_Range_in_Binary_Search_Tree_11.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Convert_Sorted_Array_to_Binary_Search_Tree_108.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/array/Subsets_II_90.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/array/Previous_Permutation_51.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/backtracking/Combinations_77.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Minimum_Depth_of_Binary_Tree_111.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/backtracking/Word_Search_79.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/backtracking/Palindrome_Partitioning_131.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/backtracking/Permutation_Sequence_60.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Unique_Binary_Search_Trees_II_95.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/dp/Triangle_120.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/dp/Backpack_92.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/dp/Backpack_II_125.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/dp/Minimum_Path_Sum_110.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/dp/Unique_Paths_62.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/dp/Unique_Paths_II_63.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/dp/Palindrome_Partitioning_II_132.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/dp/Jump_Game_II_45.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/array/Best_Time_to_Buy_and_Sell_Stock_121.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/dp/Best_Time_to_Buy_and_Sell_Stock_II_122.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/dp/Best_Time_to_Buy_and_Sell_Stock_III_123.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/dp/Best_Time_to_Buy_and_Sell_Stock_IV_188.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/string/Distinct_Subsequences_115.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/dp/Interleaving_String_97.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/dp/Maximum_Subarray_II_42.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/lintcode/dp/Longest_Continuous_Increasing_Subsequence_397.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Path_Sum_II_113.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/tree/Lowest_Common_Ancestor_of_a_Binary_Tree_236.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/others/DrugCollection.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/others/Program_Store.java" />
+        <option value="$PROJECT_DIR$/src/com/xu/others/Drug_Collection.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="21" />
+    <option name="width" value="1024" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xu" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="445&#9;PSI&#9;JAVA://com.xu.linkedlist.Add_Two_Numbers_II_445&#10;24&#9;PSI&#9;JAVA://com.xu.linkedlist.Swap_Nodes_in_Pairs_24&#10;206&#9;PSI&#9;JAVA://com.xu.linkedlist.Reverse_Linked_List_206&#10;ances&#9;PSI&#9;JAVA://com.xu.tree.Lowest_Common_Ancestor_of_a_Binary_Search_Tree_235&#10;58&#9;FILE&#9;file://H:/Java/Algorithms/src/com/xu/offer/Next_Node_in_Binary_Tree_58.java&#10;102&#9;PSI&#9;JAVA://com.xu.tree.Binary_Tree_Level_Order_Traversal_102&#10;617&#9;PSI&#9;JAVA://com.xu.tree.Merge_Two_Binary_Trees_617&#10;654&#9;PSI&#9;JAVA://com.xu.tree.Maximum_Binary_Tree_654&#10;53&#9;PSI&#9;JAVA://com.xu.array.Maximum_Subarray_53&#10;subarr&#9;PSI&#9;JAVA://com.xu.offer.Max_Subarray_31&#10;dist&#9;PSI&#9;JAVA://com.xu.string.Distinct_Subsequences_115&#10;122&#9;PSI&#9;JAVA://com.xu.array.Best_Time_to_Buy_and_Sell_Stock_II_122&#10;stock&#9;PSI&#9;JAVA://com.xu.array.Best_Time_to_Buy_and_Sell_Stock_121&#10;edit&#9;PSI&#9;JAVA://com.xu.string.Edit_Distance_72&#10;longes&#9;PSI&#9;JAVA://com.xu.basic.Longest_Common_Subsequence&#10;un&#9;PSI&#9;JAVA://com.xu.array.Unique_Paths_62&#10;120&#9;PSI&#9;JAVA://com.xu.dp.Triangle_120&#10;60&#9;PSI&#9;JAVA://com.xu.backtracking.Permutation_Sequence_60&#10;39&#9;PSI&#9;JAVA://com.xu.array.Combination_Sum_39&#10;next&#9;PSI&#9;JAVA://com.xu.array.Next_Permutation_31&#10;Per&#9;PSI&#9;JAVA://com.xu.backtracking.Permutations_II_47&#10;subset&#9;PSI&#9;JAVA://com.xu.array.Subsets_II_90&#10;108&#9;PSI&#9;JAVA://sun.nio.cs.ext.IBM1098&#10;Ser&#9;PSI&#9;JAVA://com.xu.offer.Serialize_and_Deserialize_BST_62&#10;subtre&#9;PSI&#9;JAVA://com.xu.offer.Has_Sub_Tree_18&#10;diam&#9;PSI&#9;JAVA://com.xu.tree.Diameter_of_Binary_Tree_543&#10;inver&#9;PSI&#9;JAVA://com.xu.tree.Invert_Binary_Tree_226&#10;leve&#9;FILE&#9;file://D:/IdeaProjects/AlgorthimLearning/src/com/xu/tree/Binary_Tree_Level_Order_Traversal_102.java&#10;lowes&#9;PSI&#9;JAVA://com.xu.tree.Lowest_Common_Ancestor_of_a_Binary_Search_Tree_235&#10;bal&#9;PSI&#9;JAVA://com.xu.tree.Balanced_Binary_Tree_110&#10;Dep&#9;PSI&#9;JAVA://com.xu.tree.Maximum_Depth_of_Binary_Tree_104&#10;level&#9;PSI&#9;JAVA://com.xu.tree.Binary_Tree_Level_Order_Traversal_102&#10;pre&#9;FILE&#9;file://D:/IdeaProjects/AlgorthimLearning/src/com/xu/tree/Binary_Tree_Preorder_Traversal_144.java&#10;in&#9;FILE&#9;file://D:/IdeaProjects/AlgorthimLearning/src/com/xu/tree/Binary_Tree_Inorder_Traversal_94.java&#10;post&#9;PSI&#9;JAVA://com.xu.tree.Binary_Tree_Postorder_Traversal_145&#10;inO&#9;PSI&#9;JAVA://com.xu.tree.Binary_Tree_Inorder_Traversal_94&#10;preorder&#9;PSI&#9;JAVA://com.xu.tree.Binary_Tree_Preorder_Traversal_144&#10;142&#9;PSI&#9;JAVA://com.xu.linkedlist.Linked_List_Cycle_II_142&#10;82&#9;FILE&#9;file://D:/IdeaProjects/AlgorthimLearning/src/com/xu/linkedlist/Remove_Duplicates_from_Sorted_List_II_82.java&#10;66&#9;PSI&#9;JAVA://com.xu.offer.String_Path_in_Matrix_66&#10;Ugl&#9;PSI&#9;JAVA://com.xu.offer.Ugly_Number_34&#10;96&#9;PSI&#9;JAVA://com.xu.tree.Unique_Binary_Search_Trees_96&#10;number&#9;PSI&#9;JAVA://com.xu.offer.Number_of_1_10&#10;Single&#9;PSI&#9;JAVA://com.xu.bit_manipulation.Single_Number_III_260&#10;single&#9;PSI&#9;JAVA://com.xu.bit_manipulation.Single_Number_II_137&#10;81&#9;FILE&#9;file://D:/IdeaProjects/AlgorthimLearning/src/com/xu/array/Search_in_Rotated_Sorted_Array_II_81.java&#10;33&#9;FILE&#9;file://D:/IdeaProjects/AlgorthimLearning/src/com/xu/array/Search_in_Rotated_Sorted_Array_33.java&#10;31&#9;PSI&#9;JAVA://com.xu.array.Next_Permutation_31&#10;46&#9;PSI&#9;JAVA://com.xu.backtracking.Permutations_46&#10;47&#9;PSI&#9;JAVA://com.xu.backtracking.Permutations_II_47" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pangolin" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Program_Store">
+    <configuration name="Drug_Collection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xu.others.Drug_Collection" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xu.others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.xu.Main" />
+      <module name="Algorithms" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="Program_Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xu.others.Program_Store" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xu.others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Drug_Collection" />
+      <item itemvalue="Application.Program_Store" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Program_Store" />
+        <item itemvalue="Application.Drug_Collection" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\zhaoxuzhang\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44de5c33-c36e-4664-bd8f-f6e867c25089" name="Default" comment="" />
+      <created>1510479539003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510479539003</updated>
+    </task>
+    <task id="LOCAL-00047" summary="[ADD]update 2:657, add 1 basic">
+      <created>1520822164618</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1520822164618</updated>
+    </task>
+    <task id="LOCAL-00048" summary="[ADD]update 2:543, 230">
+      <created>1520909278320</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1520909278320</updated>
+    </task>
+    <task id="LOCAL-00049" summary="[ADD]update 1">
+      <created>1520915779603</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1520915779603</updated>
+    </task>
+    <task id="LOCAL-00050" summary="[ADD]update 2">
+      <created>1521004054770</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1521004054770</updated>
+    </task>
+    <task id="LOCAL-00051" summary="[ADD]update 4">
+      <created>1521029417951</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1521029417952</updated>
+    </task>
+    <task id="LOCAL-00052" summary="[ADD]update 2">
+      <created>1521115237874</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1521115237874</updated>
+    </task>
+    <task id="LOCAL-00053" summary="[ADD]update 1">
+      <created>1521171906350</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1521171906350</updated>
+    </task>
+    <task id="LOCAL-00054" summary="[ADD]update 1:96">
+      <created>1521373489839</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1521373489839</updated>
+    </task>
+    <task id="LOCAL-00055" summary="[ADD]update 2">
+      <created>1521445549124</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1521445549125</updated>
+    </task>
+    <task id="LOCAL-00056" summary="[ADD]update 3">
+      <created>1521514151905</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1521514151905</updated>
+    </task>
+    <task id="LOCAL-00057" summary="[ADD]update 4">
+      <created>1521631618657</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1521631618657</updated>
+    </task>
+    <task id="LOCAL-00058" summary="[ADD]update 5">
+      <created>1521686852363</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1521686852364</updated>
+    </task>
+    <task id="LOCAL-00059" summary="[ADD]update 2">
+      <created>1521688158407</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1521688158407</updated>
+    </task>
+    <task id="LOCAL-00060" summary="[ADD]update 4">
+      <created>1521775252583</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1521775252583</updated>
+    </task>
+    <task id="LOCAL-00061" summary="[ADD]update 3: Leetcode-LinkedList-141, Leetcode-LinkedList-142, Leetcode-LinkedList-82">
+      <created>1522057784946</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1522057784947</updated>
+    </task>
+    <task id="LOCAL-00062" summary="[ADD]update 6: &#10;Leetcode-bit-338&#10;Leetcode-bit-191&#10;Leetcode-bit-190&#10;Leetcode-bit-136&#10;Leetcode-bit-137&#10;Leetcode-bit-260">
+      <created>1522135273725</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1522135273726</updated>
+    </task>
+    <task id="LOCAL-00063" summary="[ADD]update 1">
+      <created>1522228908088</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1522228908088</updated>
+    </task>
+    <task id="LOCAL-00064" summary="[ADD]update 4: &#10;Leetcode-offer-14, &#10;Leetcode-offer-15, &#10;Leetcode-offer-18,&#10;Leetcode-offer-20">
+      <created>1522306262028</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1522306262029</updated>
+    </task>
+    <task id="LOCAL-00065" summary="[ADD]update 4: &#10;Leetcode-offer-21, &#10;Leetcode-offer-22, &#10;Leetcode-offer-23,&#10;Leetcode-offer-24">
+      <created>1522379247606</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1522379247607</updated>
+    </task>
+    <task id="LOCAL-00066" summary="[ADD]update 3: &#10;basic-LCS, &#10;Leetcode-offer-30, &#10;Leetcode-offer-31,">
+      <created>1522640491900</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1522640491900</updated>
+    </task>
+    <task id="LOCAL-00067" summary="[ADD]update 2: &#10;offer-32, &#10;offer-33,">
+      <created>1522739970241</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1522739970241</updated>
+    </task>
+    <task id="LOCAL-00068" summary="[ADD]update 4: &#10;offer-34, &#10;offer-35,&#10;leetcode-string-20,&#10;leetcode-string-32">
+      <created>1522813091971</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1522813091973</updated>
+    </task>
+    <task id="LOCAL-00069" summary="[ADD]update 2: &#10;leetcode-array-229,&#10;leetcode-array-581">
+      <created>1523156243360</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1523156243362</updated>
+    </task>
+    <task id="LOCAL-00070" summary="[ADD]update 3: &#10;leetcode-array-1,&#10;leetcode-array-16,&#10;leetcode-array-33">
+      <created>1523247395732</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1523247395733</updated>
+    </task>
+    <task id="LOCAL-00071" summary="[ADD]update 1: &#10;leetcode-linkedlist">
+      <created>1523264988307</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1523264988307</updated>
+    </task>
+    <task id="LOCAL-00072" summary="[ADD]update 1: &#10;basic">
+      <created>1523360942669</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1523360942669</updated>
+    </task>
+    <task id="LOCAL-00073" summary="[ADD]update 2">
+      <created>1523422353252</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1523422353253</updated>
+    </task>
+    <task id="LOCAL-00074" summary="[ADD]update 3: &#10;offer-55,&#10;offer-58">
+      <created>1523847570483</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1523847570483</updated>
+    </task>
+    <task id="LOCAL-00075" summary="[ADD]update 2: &#10;offer-60,&#10;offer-61">
+      <created>1523936029307</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1523936029310</updated>
+    </task>
+    <task id="LOCAL-00076" summary="[ADD]update 1: &#10;offer-62">
+      <created>1524028007048</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1524028007048</updated>
+    </task>
+    <task id="LOCAL-00077" summary="[ADD]update 1: &#10;offer-65">
+      <created>1524110938170</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1524110938170</updated>
+    </task>
+    <task id="LOCAL-00078" summary="[ADD]update 3: &#10;leetcode-string-10,&#10;leetcode-string-38,&#10;leetcode-string-44">
+      <created>1524486377190</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1524486377190</updated>
+    </task>
+    <task id="LOCAL-00079" summary="[ADD]update 3: &#10;leetcode-bs-4,&#10;leetcode-bs-69,&#10;lintcode-bs-183">
+      <created>1525264455967</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1525264455967</updated>
+    </task>
+    <task id="LOCAL-00080" summary="[ADD]update 3: &#10;leetcode-array-209,&#10;lintcode-math-142,&#10;lintcode-math-181">
+      <created>1525333417415</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1525333417415</updated>
+    </task>
+    <task id="LOCAL-00081" summary="[ADD]update 3: &#10;lintcode-math-140,&#10;lintcode-math-179,&#10;leetcode-math-172">
+      <created>1525409047784</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1525409047785</updated>
+    </task>
+    <task id="LOCAL-00082" summary="[ADD]update 3: &#10;lintcode-array-48,&#10;lintcode-string-3,&#10;leetcode-math-9,&#10;leetcode-math-66">
+      <created>1525676104570</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1525676104571</updated>
+    </task>
+    <task id="LOCAL-00083" summary="[ADD]update 3: &#10;leetcode-linkedlist-2,&#10;leetcode-linkedlist-86,&#10;lintcode-linkedlist">
+      <created>1525762409258</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1525762409259</updated>
+    </task>
+    <task id="LOCAL-00084" summary="[ADD]update 2: &#10;leetcode-linkedlist-92,&#10;lintcode-linkedlist-174">
+      <created>1525870282186</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1525870282187</updated>
+    </task>
+    <task id="LOCAL-00085" summary="[ADD]update 3: &#10;leetcode-linkedlist-147,&#10;leetcode-linkedlist-148,&#10;leetcode-linkedlist-234">
+      <created>1526042679201</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1526042679201</updated>
+    </task>
+    <task id="LOCAL-00086" summary="[ADD]update">
+      <created>1526280189405</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1526280189406</updated>
+    </task>
+    <task id="LOCAL-00087" summary="[ADD]update several">
+      <created>1526369042423</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1526369042425</updated>
+    </task>
+    <task id="LOCAL-00088" summary="[ADD]update 5">
+      <created>1526465638381</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1526465638382</updated>
+    </task>
+    <task id="LOCAL-00089" summary="[ADD]update 1:&#10;lintcode-array-51">
+      <created>1526874907385</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1526874907385</updated>
+    </task>
+    <task id="LOCAL-00090" summary="[ADD]update 4">
+      <created>1526976669961</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1526976669962</updated>
+    </task>
+    <task id="LOCAL-00091" summary="[ADD]update 2">
+      <created>1527078172520</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1527078172520</updated>
+    </task>
+    <task id="LOCAL-00092" summary="[ADD]update">
+      <created>1527146807995</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1527146807996</updated>
+    </task>
+    <task id="LOCAL-00093" summary="[ADD]update 3">
+      <created>1527476537198</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1527476537199</updated>
+    </task>
+    <task id="LOCAL-00094" summary="[ADD]update 5">
+      <created>1527567890464</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1527567890465</updated>
+    </task>
+    <task id="LOCAL-00095" summary="[ADD]update.">
+      <created>1532534125969</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1532534125970</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32943678" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" weight="0.32979852" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49791667" weight="0.32979852" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49791667" weight="0.32750398" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16105418" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4435612" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[ADD]update 4: &#10;offer-34, &#10;offer-35,&#10;leetcode-string-20,&#10;leetcode-string-32" />
+    <MESSAGE value="[ADD]update 2: &#10;leetcode-array-229,&#10;leetcode-array-581" />
+    <MESSAGE value="[ADD]update 3: &#10;leetcode-array-1,&#10;leetcode-array-16,&#10;leetcode-array-33" />
+    <MESSAGE value="[ADD]update 1: &#10;leetcode-linkedlist" />
+    <MESSAGE value="[ADD]update 1: &#10;basic" />
+    <MESSAGE value="[ADD]update 3: &#10;offer-55,&#10;offer-58" />
+    <MESSAGE value="[ADD]update 2: &#10;offer-60,&#10;offer-61" />
+    <MESSAGE value="[ADD]update 1: &#10;offer-62" />
+    <MESSAGE value="[ADD]update 1: &#10;offer-65" />
+    <MESSAGE value="[ADD]update 3: &#10;leetcode-string-10,&#10;leetcode-string-38,&#10;leetcode-string-44" />
+    <MESSAGE value="[ADD]update 3: &#10;leetcode-bs-4,&#10;leetcode-bs-69,&#10;lintcode-bs-183" />
+    <MESSAGE value="[ADD]update 3: &#10;leetcode-array-209,&#10;lintcode-math-142,&#10;lintcode-math-181" />
+    <MESSAGE value="[ADD]update 3: &#10;lintcode-math-140,&#10;lintcode-math-179,&#10;leetcode-math-172" />
+    <MESSAGE value="[ADD]update 3: &#10;lintcode-array-48,&#10;lintcode-string-3,&#10;leetcode-math-9,&#10;leetcode-math-66" />
+    <MESSAGE value="[ADD]update 3: &#10;leetcode-linkedlist-2,&#10;leetcode-linkedlist-86,&#10;lintcode-linkedlist" />
+    <MESSAGE value="[ADD]update 2: &#10;leetcode-linkedlist-92,&#10;lintcode-linkedlist-174" />
+    <MESSAGE value="[ADD]update 3: &#10;leetcode-linkedlist-147,&#10;leetcode-linkedlist-148,&#10;leetcode-linkedlist-234" />
+    <MESSAGE value="[ADD]update several" />
+    <MESSAGE value="[ADD]update 1:&#10;lintcode-array-51" />
+    <MESSAGE value="[ADD]update 4" />
+    <MESSAGE value="[ADD]update 2" />
+    <MESSAGE value="[ADD]update" />
+    <MESSAGE value="[ADD]update 3" />
+    <MESSAGE value="[ADD]update 5" />
+    <MESSAGE value="[ADD]update." />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD]update." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/xu/Main.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="dp[70]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>dp[70]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Distinct_Subsequences_115.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/First_Unique_Character_in_a_String_387.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Generate_Parentheses_22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Group_Anagrams_49.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Implement_strStr_28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Judge_Route_Circle_657.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Length_of_Last_Word_58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Letter_Combinations_of_a_Phone_Number_17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Longest_Palindromic_Substring_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Longest_Substring_Without_Repeating_Characters_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Longest_Uncommon_Subsequence_II_522.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Longest_Valid_Parentheses_32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Max_Consecutive_Ones_485.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Palindromic_Substrings_647.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Ransom_Note_383.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Reorganize_String_767.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Reverse_String_344.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Reverse_String_II_541.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Reverse_Words_in_a_String_151.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Reverse_Words_in_a_String_III_557.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Shortest_Palindrome_214.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/String_Compression_443.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/Valid_Parentheses_20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/string/String_to_Integer_atoi_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/lintcode/string/Digit_Counts_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/lintcode/string/Partition_Array_31.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/lintcode/string/Recover_Rotated_Sorted_Array_39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/tree/Maximum_Binary_Tree_654.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/lintcode/string/Subarray_Sum_138.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/tree/Merge_Two_Binary_Trees_617.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/Multiply_Array_52.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/tree/Path_Sum_II_113.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/tree/Binary_Tree_Level_Order_Traversal_102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/Print_Binary_Tree_60.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/First_not_Repeat_character_in_String_55.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/Verify_Squence_of_BST_24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/Convert_BST_27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/tree/Second_Minimum_Node_In_a_Binary_Tree_671.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/Next_Node_in_Binary_Tree_58.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/Find_Path_in_Binary_Tree_25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/Reconstruct_Binary_Tree_6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/Print_Tree_From_Top_to_Bottom_23.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/tree/Lowest_Common_Ancestor_of_a_Binary_Search_Tree_235.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/offer/Tree_Common_Ancestor_50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/tree/Lowest_Common_Ancestor_of_a_Binary_Tree_236.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/linkedlist/Swap_Nodes_in_Pairs_24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/linkedlist/Reverse_Linked_List_206.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/linkedlist/Add_Two_Numbers_II_445.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/others/DrugCollection.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xu/others/Drug_Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xu/others/Program_Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Algorithms</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-2.8.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
