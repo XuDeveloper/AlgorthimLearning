@@ -1,4 +1,4 @@
-package com.xu.others;
+package com.xu.greedy;
 
 import java.util.Arrays;
 

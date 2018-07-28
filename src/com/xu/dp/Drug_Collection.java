@@ -1,4 +1,4 @@
-package com.xu.others;
+package com.xu.dp;
 
 /**
  * 0-1背包问题（采药问题）（动态规划）
