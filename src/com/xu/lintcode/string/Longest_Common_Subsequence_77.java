@@ -1,6 +1,10 @@
-package com.xu.basic;
+package com.xu.lintcode.string;
 
-public class Longest_Common_Subsequence {
+/**
+ * 最长公共子序列（不连续）
+ * http://baike.baidu.com/view/2020307.htm
+ */
+public class Longest_Common_Subsequence_77 {
 
     public int longestCommonSubsequence(String str1, String str2) {
         if (str1.isEmpty() || str2.isEmpty()) {
