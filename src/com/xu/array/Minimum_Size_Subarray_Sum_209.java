@@ -3,22 +3,25 @@ package com.xu.array;
 public class Minimum_Size_Subarray_Sum_209 {
 
     public int minSubArrayLen(int s, int[] nums) {
-        if (nums == null || nums.length == 0) {
+        int l = 0, r = -1; // [l...r]
+        int sum = 0;
+        int res = nums.length + 1;
+        while (l < nums.length) {
+            if (r + 1 < nums.length && sum < s) { // 边界问题
+                r++;
+                sum += nums[r];
+            } else {
+                sum -= nums[l];
+                l++;
+            }
+            if (sum >= s) {
+                res = Math.min(res, r - l + 1);
+            }
+        }
+        if (res == nums.length + 1) {
             return 0;
         }
-        int start = 0, end = 0;
-        int sum = 0;
-        int min = Integer.MAX_VALUE;
-        while (start < nums.length && end < nums.length) {
-            while (sum < s && end < nums.length) {
-                sum += nums[end++];
-            }
-            while (sum >= s && start <= end) {
-                min = Math.min(min, end - start);
-                sum -= nums[start++];
-            }
-        }
-        return min == Integer.MAX_VALUE ? 0: min;
+        return res;
     }
 
 }
