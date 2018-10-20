@@ -33,4 +33,20 @@ public class Main {
         l3.next = l4;
         sorted_lists.sortList(l1);
     }
+
+    public int binarySort(int[] data, int n, int target) {
+        int l = 0, r = n; // 循环不变量：在[l..r)范围内寻找target
+        while (l < r) {  // 当l == r时，区间无效
+            int mid = l + (r - l) / 2;
+            if (data[mid] == target) {
+                return mid;
+            }
+            if (data[mid] < target) {
+                l = mid + 1;
+            } else {
+                r = mid;
+            }
+        }
+        return -1;
+    }
 }
