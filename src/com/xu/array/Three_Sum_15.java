@@ -4,52 +4,22 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// https://www.programcreek.com/2012/12/leetcode-3sum/
+// https://www.programcreek.com/2013/02/leetcode-4sum-java/
+
 public class Three_Sum_15 {
 
-    List<List<Integer>> results = new ArrayList<>();
-
     public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
         if (nums == null || nums.length < 3) {
-            return results;
+            return result;
         }
         Arrays.sort(nums);
-        int n = nums.length;
-        for (int i = 2; i < n; i++) {
-            // c is always the last in a bunch of duplicates
-            if (i + 1 < n && nums[i + 1] == nums[i]) {
-                continue;
-            }
+        for (int i = 0; i < nums.length - 2; i++) {
+            if (i == 0 || nums[i] > nums[i - 1]) {
+                int j = i + 1;
+                int k = nums.length - 1;
 
-            // want to find all pairs of A[j]+A[k]=-A[i], such that
-            // j < k < i
-            twoSum(nums, i - 1, -nums[i]);
-        }
-        return results;
-    }
-
-    private void twoSum(int[] A, int right, int S) {
-        int i, j;
-        j = right;
-        for (i = 0; i <= right; ++i) {
-            // A[i] must be the first in its duplicates
-            if (i > 0 && A[i] == A[i - 1]) {
-                continue;
-            }
-
-            while (j > i && A[j] > S - A[i]) {
-                --j;
-            }
-
-            if (i >= j) {
-                break;
-            }
-
-            if (A[i] + A[j] == S) {
-                List<Integer> t = new ArrayList<>();
-                t.add(A[i]);
-                t.add(A[j]);
-                t.add(-S); // t.add(A[right+1])
-                results.add(t);
             }
         }
     }
