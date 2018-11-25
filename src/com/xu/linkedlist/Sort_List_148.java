@@ -10,6 +10,7 @@ public class Sort_List_148 {
         ListNode mid = findMid(head);
         ListNode head1 = head;
         ListNode head2 = mid.next;
+        // !!!!
         mid.next = null;
         ListNode left = sortList(head1);
         ListNode right = sortList(head2);
