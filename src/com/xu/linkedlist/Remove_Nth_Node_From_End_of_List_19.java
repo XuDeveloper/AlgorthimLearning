@@ -3,25 +3,19 @@ package com.xu.linkedlist;
 public class Remove_Nth_Node_From_End_of_List_19 {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        if (head == null || head.next == null) {
-            return null;
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode p = dummy;
+        ListNode q = dummy;
+        for (int i = 0; i < n + 1; i++) {
+            q = q.next;
         }
-        ListNode fast = head;
-        ListNode slow = head;
-        while (n > 0) {
-            n--;
-            fast = fast.next;
+        while (q != null) {
+            p = p.next;
+            q = q.next;
         }
-        if (fast == null) {
-            head = head.next;
-            return head;
-        }
-        while (fast.next != null) {
-            slow = slow.next;
-            fast = fast.next;
-        }
-        slow.next = slow.next.next;
-        return head;
+        p.next = p.next.next;
+        return dummy.next;
     }
 
 }

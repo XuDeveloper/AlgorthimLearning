@@ -6,7 +6,7 @@ public class Swap_Nodes_in_Pairs_24 {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode p = dummy;
-        // p -> n1 -> n2 -> next`
+        // p -> n1 -> n2 -> next
         while (p.next != null && p.next.next != null) {
             ListNode n1 = p.next;
             ListNode n2 = n1.next;
