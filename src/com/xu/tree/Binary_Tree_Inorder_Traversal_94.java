@@ -30,18 +30,53 @@ public class Binary_Tree_Inorder_Traversal_94 {
 //        }
 //    }
 
+//    public List<Integer> inorderTraversal(TreeNode root) {
+//        List<Integer> result = new ArrayList<>();
+//        Stack<TreeNode> stack = new Stack<>();
+//        TreeNode cur = root;
+//        while (cur != null || !stack.isEmpty()) {
+//            if (cur != null) {
+//                stack.push(cur);
+//                cur = cur.left;
+//            } else {
+//                cur = stack.pop();
+//                result.add(cur.val);
+//                cur = cur.right;
+//            }
+//        }
+//        return result;
+//    }
+
+    class Command {
+        String s;
+        TreeNode node;
+        Command(String s, TreeNode node) {
+            this.s = s;
+            this.node = node;
+        }
+    }
+
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> result = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode cur = root;
-        while (cur != null || !stack.isEmpty()) {
-            if (cur != null) {
-                stack.push(cur);
-                cur = cur.left;
+        ArrayList<Integer> result = new ArrayList<Integer>();
+        if (root == null) {
+            return result;
+        }
+        Stack<Command> stack = new Stack<>();
+        Command command = new Command("go", root);
+        stack.push(command);
+        while (!stack.isEmpty()) {
+            Command c = stack.peek();
+            stack.pop();
+            if (c.s.equals("print")) {
+                result.add(c.node.val);
             } else {
-                cur = stack.pop();
-                result.add(cur.val);
-                cur = cur.right;
+                if (c.node.right != null) {
+                    stack.push(new Command("go", c.node.right));
+                }
+                stack.push(new Command("print", c.node));
+                if (c.node.left != null) {
+                    stack.push(new Command("go", c.node.left));
+                }
             }
         }
         return result;

@@ -7,8 +7,9 @@ public class Reorder_List_143 {
             return;
         }
         // find middle
+        // !!
         ListNode slow = head;
-        ListNode fast = head.next;
+        ListNode fast = head;
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
@@ -26,6 +27,7 @@ public class Reorder_List_143 {
         }
 
         // merge
+        // !!!
         rHead = prev;
         ListNode lHead = head;
         while (lHead != null && rHead != null) {

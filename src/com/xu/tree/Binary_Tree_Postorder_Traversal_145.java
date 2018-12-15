@@ -80,4 +80,39 @@ public class Binary_Tree_Postorder_Traversal_145 {
 //        return result;
 //    }
 
+    class Command {
+        String s;
+        TreeNode node;
+        Command(String s, TreeNode node) {
+            this.s = s;
+            this.node = node;
+        }
+    }
+
+    public List<Integer> postorderTraversal(TreeNode root) {
+        ArrayList<Integer> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+        Stack<Command> stack = new Stack<>();
+        Command command = new Command("go", root);
+        stack.push(command);
+        while (!stack.isEmpty()) {
+            Command c = stack.peek();
+            stack.pop();
+            if (c.s.equals("print")) {
+                result.add(c.node.val);
+            } else {
+                stack.push(new Command("print", c.node));
+                if (c.node.right != null) {
+                    stack.push(new Command("go", c.node.right));
+                }
+                if (c.node.left != null) {
+                    stack.push(new Command("go", c.node.left));
+                }
+            }
+        }
+        return result;
+    }
+
 }
