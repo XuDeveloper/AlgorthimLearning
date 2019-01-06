@@ -23,15 +23,21 @@ public class Main {
 //        for (int i = 0; i < vals.length; i++) {
 //            System.out.print(vals[i] + " ");
 //        }
-        Sort_List_148 sorted_lists = new Sort_List_148();
-        ListNode l1 = new ListNode(4);
-        ListNode l2 = new ListNode(1);
-        ListNode l3 = new ListNode(3);
-        ListNode l4 = new ListNode(2);
-        l1.next = l2;
-        l2.next = l3;
-        l3.next = l4;
-        sorted_lists.sortList(l1);
+//        Sort_List_148 sorted_lists = new Sort_List_148();
+//        ListNode l1 = new ListNode(4);
+//        ListNode l2 = new ListNode(1);
+//        ListNode l3 = new ListNode(3);
+//        ListNode l4 = new ListNode(2);
+//        l1.next = l2;
+//        l2.next = l3;
+//        l3.next = l4;
+//        sorted_lists.sortList(l1);
+
+//        int a = 2;
+//        int result = a++ + 4 << 2;
+//        System.out.println(result);
+
+
     }
 
     public int binarySort(int[] data, int n, int target) {
