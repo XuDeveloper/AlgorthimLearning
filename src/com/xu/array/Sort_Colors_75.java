@@ -6,16 +6,16 @@ public class Sort_Colors_75 {
     public void sortColors1(int[] nums) {
         int n = nums.length;
         int bound1 = -1, // nums[0..bound1]为0
-                bound2 = n; // nums[two..n-1]为2
+                bound2 = n; // nums[bound2..n-1]为2
         int i = 0;
-        while(i <= bound2) {
+        while (i < bound2) {
             while (nums[i] == 2 && bound2 > i) {
-                swap(nums, i , bound2);
                 bound2--;
+                swap(nums, i, bound2);
             }
-            while (nums[i] == 0 && bound1 < i) {
-                swap(nums, i , bound1);
+            while (nums[i] == 0 && bound1 < i){
                 bound1++;
+                swap(nums, i, bound1);
             }
             i++;
         }
