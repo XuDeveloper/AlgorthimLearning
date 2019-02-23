@@ -29,7 +29,7 @@ public class Kth_Smallest_Element_in_a_BST_230 {
         Stack<TreeNode> stack = new Stack<TreeNode>();
         if (pRoot == null || k == 0) return null;
         int t = 0;
-        while (pRoot != null || stack.size() > 0) {
+        while (pRoot != null || !stack.isEmpty()) {
             while (pRoot != null) {
                 stack.push(pRoot);
                 pRoot = pRoot.left;
