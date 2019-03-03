@@ -1,4 +1,4 @@
-package com.xu.string;
+package com.xu.backtracking;
 
 import java.util.ArrayList;
 import java.util.HashMap;
