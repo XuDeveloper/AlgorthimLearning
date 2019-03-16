@@ -10,20 +10,21 @@ import java.util.List;
 public class Permutations_II_47 {
 
     List<List<Integer>> res = new ArrayList<List<Integer>>();
+    boolean[] used;
 
     public List<List<Integer>> permuteUnique(int[] nums) {
         int len = nums.length;
         if (len == 0 || nums == null) return res;
 
-        boolean[] used = new boolean[len];
+        used = new boolean[len];
         List<Integer> list = new ArrayList<Integer>();
 
         Arrays.sort(nums);
-        dfs(nums, used, list, len);
+        generatePermutation(nums, used, list, len);
         return res;
     }
 
-    public void dfs(int[] nums, boolean[] used, List<Integer> list, int len) {
+    public void generatePermutation(int[] nums, boolean[] used, List<Integer> list, int len) {
         if (list.size() == len) {
             res.add(new ArrayList<>(list));
             return;
@@ -39,7 +40,7 @@ public class Permutations_II_47 {
             }
             used[i] = true;
             list.add(nums[i]);
-            dfs(nums, used, list, len);
+            generatePermutation(nums, used, list, len);
             list.remove(list.size() - 1);
             used[i] = false;
         }
