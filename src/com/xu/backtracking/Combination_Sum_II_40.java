@@ -1,4 +1,4 @@
-package com.xu.array;
+package com.xu.backtracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;
