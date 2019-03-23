@@ -9,29 +9,23 @@ import java.util.List;
  */
 public class Subsets_78 {
 
+    private List<List<Integer>> res = new ArrayList<>();
+
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> results = new ArrayList<>();
-
-        if (nums == null) {
-            return results;
+        if (nums == null || nums.length == 0) {
+            return res;
         }
-
-        if (nums.length == 0) {
-            results.add(new ArrayList<Integer>());
-            return results;
-        }
-
-        Arrays.sort(nums);
-        helper(nums, 0, new ArrayList<Integer>(), results);
-        return results;
+        generateSubsets(nums, 0, new ArrayList<>());
+        return res;
     }
 
-    public void helper(int[] nums, int startIndex, List<Integer> cur, List<List<Integer>> result) {
-        result.add(new ArrayList<>(cur));
-        for (int i = startIndex; i < nums.length; i++) {
-            cur.add(nums[i]);
-            helper(nums, i + 1, cur, result);
-            cur.remove(cur.size() - 1);
+    private void generateSubsets(int[] nums, int start, ArrayList<Integer> temp) {
+        res.add(new ArrayList<>(temp));
+        for (int i = start; i < nums.length; i++) {
+            temp.add(nums[i]);
+            generateSubsets(nums, i + 1, temp);
+            temp.remove(temp.size() - 1);
         }
     }
+
 }

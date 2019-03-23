@@ -23,12 +23,11 @@ public class Subsets_II_90 {
             tmp.add(nums[i]);
             helper(result, tmp, i + 1, nums);
             tmp.remove(tmp.size() - 1);
+            while (i < nums.length - 1 && nums[i] == nums[i + 1]) {
+                //跳过重复元素
+                i++;
+            }
         }
-
-        // or
-//        if (i != pos && nums[i] == nums[i - 1]) {
-//            continue;
-//        }
     }
 
 }
