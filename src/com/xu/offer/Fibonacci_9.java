@@ -21,4 +21,23 @@ public class Fibonacci_9 {
         return fn;
     }
 
+    private int[] memo;
+
+    /**
+     * （记忆化搜索）
+     * @param n
+     * @return
+     */
+    public int fibonacci2(int n) {
+        if (n == 0) {
+            return 0;
+        }
+        if (n == 1) {
+            return 1;
+        }
+        if (memo[n] != -1) {
+            memo[n] = fibonacci2(n - 1) + fibonacci2(n - 2);
+        }
+        return memo[n];
+    }
 }
