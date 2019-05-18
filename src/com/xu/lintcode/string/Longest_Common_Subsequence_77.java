@@ -24,7 +24,35 @@ public class Longest_Common_Subsequence_77 {
                 }
             }
         }
+        System.out.println(getLcsResult(dp, str1, str2));
+        System.out.println(dp[m][n]);
         return dp[m][n];
+    }
+
+    private String getLcsResult(int[][] dp, String str1, String str2) {
+        int m = str1.length();
+        int n = str2.length();
+        StringBuilder sb = new StringBuilder();
+        while (m > 0 && n > 0) {
+            if (str1.charAt(m - 1) == str2.charAt(n - 1)) {
+                sb = sb.insert(0, str1.charAt(m - 1));
+                m--;
+                n--;
+            } else {
+                if (dp[m][n - 1] > dp[m - 1][n]) {
+                    n--;
+                } else {
+                    m--;
+                }
+            }
+        }
+        return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        String s1 = "ABCDGH";
+        String s2 = "AEDFHR";
+        new Longest_Common_Subsequence_77().longestCommonSubsequence(s1, s2);
     }
 
 }
