@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过1次 （2019.05.28 ）
+
 public class Reverse_Linked_List_206 {
 
     public ListNode reverseList(ListNode head) {
