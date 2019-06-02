@@ -3,27 +3,34 @@ package com.xu.string;
 import java.util.ArrayList;
 import java.util.List;
 
+// 刷过一遍 （2019.06.02 ）
+
 public class Generate_Parentheses_22 {
 
+    private List<String> res;
+
     public List<String> generateParenthesis(int n) {
-        ArrayList<String> result = new ArrayList<>();
-        dfs(result, "", n, n);
-        return result;
+        res = new ArrayList<>();
+        if (n == 0) {
+            return res;
+        }
+        getParenthesis("", n, n);
+        return res;
     }
 
-    public void dfs(ArrayList<String> result, String s, int left, int right) {
+    public void getParenthesis(String temp, int left, int right) {
         if (left > right) {
             return;
         }
         if (left == 0 && right == 0) {
-            result.add(s);
+            res.add(temp);
             return;
         }
         if (left > 0) {
-            dfs(result, s + "(", left - 1, right);
+            getParenthesis(temp + '(', left - 1, right);
         }
         if (right > 0) {
-            dfs(result, s + ")", left, right - 1);
+            getParenthesis(temp + ')', left, right - 1);
         }
     }
 
