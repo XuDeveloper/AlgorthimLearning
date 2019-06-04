@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过一遍 （2018.06.04 ）
+
 public class Merge_Two_Sorted_Lists_21 {
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
