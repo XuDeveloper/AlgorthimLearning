@@ -3,6 +3,8 @@ package com.xu.array;
 import java.util.HashSet;
 import java.util.Iterator;
 
+// 刷过1次 （2019.06.10 ）
+
 public class Intersection_of_Two_Arrays_349 {
 
     public int[] intersection(int[] nums1, int[] nums2) {
