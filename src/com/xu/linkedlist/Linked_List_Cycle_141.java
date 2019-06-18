@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过一遍 （2019.06.18 ）
+
 public class Linked_List_Cycle_141 {
 
     public boolean hasCycle(ListNode head) {
