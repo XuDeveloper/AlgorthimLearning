@@ -1,5 +1,7 @@
 package com.xu.tree;
 
+// 刷过1遍 （2019.06.27 ）
+
 public class Search_in_a_Binary_Search_Tree_700 {
 
     public TreeNode searchBST(TreeNode root, int val) {
