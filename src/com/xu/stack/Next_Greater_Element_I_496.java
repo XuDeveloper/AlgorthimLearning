@@ -3,6 +3,8 @@ package com.xu.stack;
 import java.util.HashMap;
 import java.util.Stack;
 
+// 刷过一遍 （2019.06.26 ）
+
 public class Next_Greater_Element_I_496 {
 
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
