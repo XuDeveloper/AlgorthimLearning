@@ -3,6 +3,8 @@ package com.xu.backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
+// 刷过一遍 （2019.06.30 ）
+
 public class Combinations_77 {
 
     private List<List<Integer>> result = new ArrayList<>();
