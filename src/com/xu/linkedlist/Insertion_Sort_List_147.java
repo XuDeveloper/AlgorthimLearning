@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过一遍 （2019.07.02 ）
+
 public class Insertion_Sort_List_147 {
 
     public ListNode insertionSortList(ListNode head) {
