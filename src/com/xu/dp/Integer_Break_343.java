@@ -2,6 +2,8 @@ package com.xu.dp;
 
 import java.util.Arrays;
 
+// 刷过1遍（2019.07.06 ）
+
 public class Integer_Break_343 {
 
     public int integerBreak(int n) {
