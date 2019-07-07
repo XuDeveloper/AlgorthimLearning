@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// 刷过1遍（2019.07.07 ）
+
 public class Combination_Sum_II_40 {
 
     private List<List<Integer>> res = new ArrayList<>();
@@ -11,6 +13,7 @@ public class Combination_Sum_II_40 {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         if (candidates == null || candidates.length < 1)
             return res;
+        // !!!
         Arrays.sort(candidates);
         generateCombination(candidates, target, 0, new ArrayList<Integer>());
         return res;
