@@ -2,6 +2,8 @@ package com.xu.array;
 
 import java.util.HashMap;
 
+// 刷过1遍 （2019.07.08 ）
+
 public class Valid_Anagram_242 {
 
     public boolean isAnagram(String s, String t) {
@@ -29,20 +31,23 @@ public class Valid_Anagram_242 {
         return true;
     }
 
-//    public boolean isAnagram(String s, String t) {
-//        int[] letters = new int[26];
-//        for (int i = 0; i < s.length(); i++) {
-//            letters[s.charAt(i) - 'a']++;
-//        }
-//        for (int i = 0; i < t.length(); i++) {
-//            letters[t.charAt(i) - 'a']--;
-//        }
-//        for (int i = 0; i < letters.length; i++) {
-//            if (letters[i] != 0) {
-//                return false;
-//            }
-//        }
-//        return true;
-//    }
+    public boolean isAnagram1(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+        char[] sArray = s.toCharArray();
+        char[] tArray = t.toCharArray();
+        int[] temp = new int[128];
+        for (char c: sArray) {
+            temp[c]++;
+        }
+        for (char c: tArray) {
+            temp[c]--;
+            if (temp[c] < 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 
 }
