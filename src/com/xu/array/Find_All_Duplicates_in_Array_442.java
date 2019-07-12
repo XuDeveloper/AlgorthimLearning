@@ -3,6 +3,8 @@ package com.xu.array;
 import java.util.ArrayList;
 import java.util.List;
 
+// 刷过1遍 （2019.07.12 ）
+
 public class Find_All_Duplicates_in_Array_442 {
 
     public List<Integer> findDuplicates(int[] nums) {
