@@ -1,5 +1,7 @@
 package com.xu.dp;
 
+// 刷过1遍（2019.07.13 ）
+
 public class Longest_Palindromic_Subsequence_516 {
 
     public int longestPalindromeSubseq(String s) {
