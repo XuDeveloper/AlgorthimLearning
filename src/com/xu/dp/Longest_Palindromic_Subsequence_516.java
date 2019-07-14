@@ -7,6 +7,7 @@ public class Longest_Palindromic_Subsequence_516 {
     public int longestPalindromeSubseq(String s) {
         int n = s.length();
         int[][] dp = new int[n][n];
+        // 循环思考！
         for (int i = n - 1; i >= 0; i--) {
             // !!!
             dp[i][i] = 1;
