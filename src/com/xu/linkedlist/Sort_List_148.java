@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过1遍（2019.07.16 ）
+
 public class Sort_List_148 {
 
     public ListNode sortList(ListNode head) {
