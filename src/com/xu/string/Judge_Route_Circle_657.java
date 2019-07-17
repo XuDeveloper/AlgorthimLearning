@@ -1,29 +1,30 @@
 package com.xu.string;
 
+// 刷过1遍（2019.07.17 ）
+
 public class Judge_Route_Circle_657 {
 
     public boolean judgeCircle(String moves) {
         if (moves.length() == 0) {
             return true;
         }
-        int countL = 0, countR = 0, countU = 0, countD = 0;
-        for (int i = 0; i < moves.length(); i++) {
-            char t = moves.charAt(i);
-            switch (t) {
-                case 'L':
-                    countL++;
-                    break;
-                case 'R':
-                    countR++;
-                    break;
+        int hor = 0, ver = 0;
+        for (char c: moves.toCharArray()) {
+            switch (c) {
                 case 'U':
-                    countU++;
+                    ver++;
                     break;
                 case 'D':
-                    countD++;
+                    ver--;
+                    break;
+                case 'L':
+                    hor++;
+                    break;
+                case 'R':
+                    hor--;
                     break;
             }
         }
-        return countL == countR && countU == countD;
+        return hor == 0 && ver == 0;
     }
 }
