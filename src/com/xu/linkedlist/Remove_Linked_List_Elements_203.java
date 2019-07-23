@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过1遍（2019.07.23 ）
+
 public class Remove_Linked_List_Elements_203 {
 
     public ListNode removeElements(ListNode head, int val) {
