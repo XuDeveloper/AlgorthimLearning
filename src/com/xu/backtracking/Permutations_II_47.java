@@ -4,44 +4,42 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// 刷过1遍（2019.07.28 ）
+
 /**
  * https://www.jianshu.com/p/db90675cb82b
  */
 public class Permutations_II_47 {
 
-    List<List<Integer>> res = new ArrayList<List<Integer>>();
-    boolean[] used;
+    private List<List<Integer>> res;
 
     public List<List<Integer>> permuteUnique(int[] nums) {
-        int len = nums.length;
-        if (len == 0 || nums == null) return res;
-
-        used = new boolean[len];
-        List<Integer> list = new ArrayList<Integer>();
-
+        res = new ArrayList<>();
+        if (nums == null || nums.length == 0) {
+            return res;
+        }
+        boolean[] used = new boolean[nums.length];
         Arrays.sort(nums);
-        generatePermutation(nums, used, list, len);
+        generatePermutation(nums, used, new ArrayList<>());
         return res;
     }
 
-    public void generatePermutation(int[] nums, boolean[] used, List<Integer> list, int len) {
-        if (list.size() == len) {
-            res.add(new ArrayList<>(list));
+    public void generatePermutation(int[] nums, boolean[] used, List<Integer> temp) {
+        if (temp.size() == nums.length) {
+            res.add(new ArrayList<>(temp));
             return;
         }
-        for (int i = 0; i < len; i++) {
-            // 当前位置的数已经在List中了
+        for (int i = 0; i < nums.length; i++) {
             if (used[i]) {
                 continue;
             }
-            // 当前元素与其前一个元素值相同 且 前元素未被加到list中，跳过该元素
             if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) {
                 continue;
             }
             used[i] = true;
-            list.add(nums[i]);
-            generatePermutation(nums, used, list, len);
-            list.remove(list.size() - 1);
+            temp.add(nums[i]);
+            generatePermutation(nums, used, temp);
+            temp.remove(temp.size() - 1);
             used[i] = false;
         }
     }
