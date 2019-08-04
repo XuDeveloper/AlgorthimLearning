@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// 刷过1遍（2019.08.04 ）
+
 public class N_Queens_51 {
 
     private List<List<String>> res;
