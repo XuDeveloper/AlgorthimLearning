@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过1遍（2019.08.06 ）
+
 public class Merge_k_Sorted_Lists_23 {
 
     // 思路一： 迭代调用Merge Two Sorted Lists
