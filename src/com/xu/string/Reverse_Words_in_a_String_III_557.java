@@ -1,21 +1,26 @@
 package com.xu.string;
 
+// 刷过1遍（2019.08.07 ）
+
 public class Reverse_Words_in_a_String_III_557 {
 
     public String reverseWords(String s) {
-        int length = s.length();
-        char[] str = s.toCharArray();
-        int i = 0;
-        while (i < length && str[i] == ' ') {
-            i++;
+        if (s == null || s.length() == 0) {
+            return s;
         }
-        int j = i;
-        while (j < length) {
-            while (j < length && str[j] != ' ') {
-                j++;
+        char[] str = s.toCharArray();
+        int start = 0, end;
+        int len = s.length();
+        while (start < len && str[start] == ' ') {
+            start++;
+        }
+        end = start;
+        while (end < len) {
+            while (end < len && str[end] != ' ') {
+                end++;
             }
-            int low = i;
-            int high = j - 1;
+            int low = start;
+            int high = end - 1;
             while (low < high) {
                 char temp = str[low];
                 str[low] = str[high];
@@ -23,10 +28,10 @@ public class Reverse_Words_in_a_String_III_557 {
                 low++;
                 high--;
             }
-            while (j < length && str[j] == ' ') {
-                j++;
+            while (end < len && str[end] == ' ') {
+                end++;
             }
-            i = j;
+            start = end;
         }
         return new String(str);
     }
