@@ -7,7 +7,6 @@ package com.xu.lintcode.string;
 public class Longest_Common_Substring_79 {
 
     public int longestCommonSubstring(String A, String B) {
-        // write your code here
         if (A == null || A.isEmpty() || B == null || B.isEmpty()) {
             return 0;
         }
