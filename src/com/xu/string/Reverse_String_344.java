@@ -1,18 +1,21 @@
 package com.xu.string;
 
+// 刷过1遍（2019.08.14 ）
+
 public class Reverse_String_344 {
 
-    public String reverseString(String s) {
-        char[] str = s.toCharArray();
+    public void reverseString(char[] s) {
+        if (s == null || s.length == 0) {
+            return;
+        }
         int i = 0;
-        int j = str.length - 1;
+        int j = s.length - 1;
         while (i < j) {
-            char temp = str[i];
-            str[i] = str[j];
-            str[j] = temp;
+            char temp = s[i];
+            s[i] = s[j];
+            s[j] = temp;
             i++;
             j--;
         }
-        return new String(str);
     }
 }
