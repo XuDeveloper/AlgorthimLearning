@@ -1,20 +1,22 @@
 package com.xu.linkedlist;
 
+// 刷过1遍（2019.08.20 ）
+
 public class Remove_Nth_Node_From_End_of_List_19 {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
-        ListNode p = dummy;
-        ListNode q = dummy;
-        for (int i = 0; i < n + 1; i++) {
-            q = q.next;
+        ListNode fast = dummy;
+        ListNode slow = dummy;
+        for (int i = 0; i <= n; i++) {
+            fast = fast.next;
         }
-        while (q != null) {
-            p = p.next;
-            q = q.next;
+        while (fast != null) {
+            fast = fast.next;
+            slow = slow.next;
         }
-        p.next = p.next.next;
+        slow.next = slow.next.next;
         return dummy.next;
     }
 

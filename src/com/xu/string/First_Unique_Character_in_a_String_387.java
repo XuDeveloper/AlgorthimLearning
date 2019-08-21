@@ -1,5 +1,7 @@
 package com.xu.string;
 
+// 刷过1遍（2019.08.19 ）
+
 public class First_Unique_Character_in_a_String_387 {
 
     public int firstUniqChar(String s) {
