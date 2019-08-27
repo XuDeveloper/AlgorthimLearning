@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过1遍（2019.08.27 ）
+
 /**
  * https://blog.csdn.net/linhuanmars/article/details/24389429
  */

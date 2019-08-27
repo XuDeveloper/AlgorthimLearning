@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// 刷过1遍（2019.08.26 ）
+
 public class Group_Anagrams_49 {
 
     public List<List<String>> groupAnagrams(String[] strs) {
