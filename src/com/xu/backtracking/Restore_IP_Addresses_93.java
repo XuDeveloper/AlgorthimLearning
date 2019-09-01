@@ -3,6 +3,8 @@ package com.xu.backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
+// 刷过1遍（2019.09.01 ）
+
 public class Restore_IP_Addresses_93 {
 
     private ArrayList<ArrayList<String>> result = new ArrayList<>();
@@ -13,7 +15,7 @@ public class Restore_IP_Addresses_93 {
         for (ArrayList<String> l: result) {
             StringBuilder sb = new StringBuilder();
             for (String str: l) {
-                sb.append(str + ".");
+                sb.append(str).append(".");
             }
             sb.setLength(sb.length() - 1);
             finalResult.add(sb.toString());
@@ -28,7 +30,7 @@ public class Restore_IP_Addresses_93 {
         if (temp.size() + s.length() - index + 1 < 4) {
             return;
         }
-        if (temp.size() == 4 && index == s.length()) {
+        if (temp.size() == 4) {
             ArrayList<String> t = new ArrayList<>(temp);
             result.add(t);
             return;
