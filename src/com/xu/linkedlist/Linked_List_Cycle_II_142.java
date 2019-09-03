@@ -1,7 +1,10 @@
 package com.xu.linkedlist;
 
+// 刷过1遍（2019.09.03 ）
+
 /**
  * https://blog.csdn.net/liuchonge/article/details/74643929
+ * https://blog.csdn.net/To_be_to_thought/article/details/83958314
  */
 public class Linked_List_Cycle_II_142 {
 
