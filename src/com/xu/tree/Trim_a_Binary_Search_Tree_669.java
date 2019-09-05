@@ -1,5 +1,7 @@
 package com.xu.tree;
 
+// 刷过1遍（2019.09.05 ）
+
 public class Trim_a_Binary_Search_Tree_669 {
 
     public TreeNode trimBST(TreeNode root, int L, int R) {
