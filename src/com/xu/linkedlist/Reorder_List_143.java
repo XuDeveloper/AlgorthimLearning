@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过1遍（2019.09.10 ）
+
 public class Reorder_List_143 {
 
     public void reorderList(ListNode head) {
