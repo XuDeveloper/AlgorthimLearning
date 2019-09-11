@@ -1,5 +1,7 @@
 package com.xu.string;
 
+// 刷过1遍（2019.09.11 ）
+
 /**
  * https://www.polarxiong.com/archives/LeetCode-696-count-binary-substrings.html
  */
