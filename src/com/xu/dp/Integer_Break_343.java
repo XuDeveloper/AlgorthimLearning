@@ -2,7 +2,7 @@ package com.xu.dp;
 
 import java.util.Arrays;
 
-// 刷过1遍（2019.07.06 ）
+// 刷过2遍（2019.07.06, 2019.09.14）
 
 public class Integer_Break_343 {
 
@@ -11,15 +11,14 @@ public class Integer_Break_343 {
 //        Arrays.fill(memo, -1);
 //        return breakInteger(n);
         // 动态规划
-        memo = new int[n + 1];
-        memo[1] = 1;
+        int[] dp = new int[n + 1];
+        dp[1] = 1;
         for (int i = 2; i <= n; i++) {
-            for (int j = 1; j <= i - 1; j++) {
-                // j + (i - j)
-                memo[i] = Math.max(memo[i], Math.max(j * (i - j), j * memo[i - j]));
+            for (int j = 1; j < i; j++) {
+                dp[i] = Math.max(dp[i], Math.max(j * (i - j), j * dp[i - j]));
             }
         }
-        return memo[n];
+        return dp[n];
     }
 
     // 记忆化搜索（自顶向下）
