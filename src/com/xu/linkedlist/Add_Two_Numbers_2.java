@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过1遍（2019.09.17 ）
+
 public class Add_Two_Numbers_2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

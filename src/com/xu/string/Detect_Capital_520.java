@@ -1,18 +1,21 @@
 package com.xu.string;
 
+// 刷过1遍（2019.09.18 ）
+
 public class Detect_Capital_520 {
 
     public boolean detectCapitalUse(String word) {
-        // 长度小于2，返回true
-        if (word.length() < 2) {
+        int numCap = 0;
+        for (int i = 0; i < word.length(); i++) {
+            if (word.charAt(i) < 'a') {
+                numCap++;
+            }
+        }
+        if (numCap == 0 || numCap == word.length()) {
             return true;
         }
-        if (word.toUpperCase().equals(word)) {
-            return true;
-        }
-        // 如果第一个字母之后全是小写（第一个字母大小写无所谓）
-        if (word.substring(1).toLowerCase().equals(word.substring(1))) {
-            return true;
+        if (numCap == 1) {
+            return word.charAt(0) < 'a';
         }
         return false;
     }
