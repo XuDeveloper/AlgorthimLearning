@@ -1,5 +1,7 @@
 package com.xu.string;
 
+// 刷过1遍（2019.09.25 ）
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -19,12 +21,12 @@ public class Construct_String_from_Binary_Tree_606 {
             return String.valueOf(t.val);
         }
         if (t.left == null) {
-            return String.valueOf(t.val) + "()" + "(" + tree2str(t.right) + ")";
+            return t.val + "()(" + tree2str(t.right) + ")";
         }
         if (t.right == null) {
-            return String.valueOf(t.val) + "(" + tree2str(t.left) + ")";
+            return t.val + "(" + tree2str(t.left) + ")";
         }
-        return String.valueOf(t.val) + "(" + tree2str(t.left) + ")" + "(" + tree2str(t.right) + ")";
+        return t.val + "(" + tree2str(t.left) + ")(" + tree2str(t.right) + ")";
     }
 
 }

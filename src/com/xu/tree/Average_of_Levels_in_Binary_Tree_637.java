@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+// 刷过1遍（2019.09.26 ）
+
 public class Average_of_Levels_in_Binary_Tree_637 {
 
     public List<Double> averageOfLevels(TreeNode root) {
@@ -15,20 +17,19 @@ public class Average_of_Levels_in_Binary_Tree_637 {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
-            int size = queue.size();
+            int qSize = queue.size();
             long sum = 0;
-            for (int i = 0; i < size; i++) {
-                TreeNode treeNode = queue.poll();
-                sum += treeNode.val;
-                if (treeNode.left != null) {
-                    queue.offer(treeNode.left);
+            for (int i = 0; i < qSize; i++) {
+                TreeNode node = queue.poll();
+                sum += node.val;
+                if (node.left != null) {
+                    queue.offer(node.left);
                 }
-                if (treeNode.right != null) {
-                    queue.offer(treeNode.right);
+                if (node.right != null) {
+                    queue.offer(node.right);
                 }
             }
-            double avg = (double) sum / size;
-            list.add(avg);
+            list.add((double) sum / qSize);
         }
         return list;
     }

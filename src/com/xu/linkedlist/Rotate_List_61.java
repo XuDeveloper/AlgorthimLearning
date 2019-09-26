@@ -1,5 +1,7 @@
 package com.xu.linkedlist;
 
+// 刷过1遍（2019.09.24 ）
+
 public class Rotate_List_61 {
 
     public ListNode rotateRight(ListNode head, int k) {
