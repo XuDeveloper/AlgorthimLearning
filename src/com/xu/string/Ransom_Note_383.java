@@ -1,5 +1,7 @@
 package com.xu.string;
 
+// 刷过1遍（2019.10.08 ）
+
 public class Ransom_Note_383 {
 
     public boolean canConstruct(String ransomNote, String magazine) {

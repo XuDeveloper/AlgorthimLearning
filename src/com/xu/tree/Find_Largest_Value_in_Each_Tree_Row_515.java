@@ -5,34 +5,37 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+// 刷过1遍（2019.10.10 ）
+
 public class Find_Largest_Value_in_Each_Tree_Row_515 {
 
     // BFS
     public List<Integer> largestValues(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> res = new ArrayList<>();
         if (root == null) {
-            return list;
+            return res;
         }
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
-            int levelNum = queue.size();
-            int temp = Integer.MIN_VALUE;
-            for (int i = 0; i < levelNum; i++) {
-                TreeNode treeNode = queue.poll();
-                if (temp < treeNode.val) {
-                    temp = treeNode.val;
+            int qSize = queue.size();
+            int max = Integer.MIN_VALUE;
+            for (int i = 0; i < qSize; i++) {
+                TreeNode node = queue.poll();
+                int value = node.val;
+                if (value > max) {
+                    max = value;
                 }
-                if (treeNode.left != null) {
-                    queue.add(treeNode.left);
+                if (node.left != null) {
+                    queue.offer(node.left);
                 }
-                if (treeNode.right != null) {
-                    queue.add(treeNode.right);
+                if (node.right != null) {
+                    queue.offer(node.right);
                 }
             }
-            list.add(temp);
+            res.add(max);
         }
-        return list;
+        return res;
     }
 
     // DFS
