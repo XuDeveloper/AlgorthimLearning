@@ -3,7 +3,7 @@ package com.xu.string;
 import java.util.ArrayList;
 import java.util.List;
 
-// 刷过一遍 （2019.06.02 ）
+// 刷过两遍 （2019.06.02, 2019.10.13 ）
 
 public class Generate_Parentheses_22 {
 
