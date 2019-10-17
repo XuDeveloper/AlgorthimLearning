@@ -1,6 +1,6 @@
 package com.xu.linkedlist;
 
-// 刷过1次 （2019.05.28 ）
+// 刷过2次 （2019.05.28, 2019.10.15）
 
 public class Reverse_Linked_List_206 {
 
