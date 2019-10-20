@@ -1,5 +1,7 @@
 package com.xu.backtracking;
 
+// 刷过1遍（2019.10.20 ）
+
 public class Beautiful_Arrangement_526 {
 
     private int res;
